@@ -1,0 +1,82 @@
+.heading{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.Image-holder img{
+
+border: 3px solid black;
+border-radius: 100px;
+width:140px;
+height:140px;
+text-align: left;
+object-fit: cover;
+
+}
+
+.Image-holder{
+width:200px;
+height:200px;
+}
+
+.vertical-line{
+    height:300px;
+    border-left: 3px solid black;
+}
+
+.table,th,td{
+    border:1px solid black;
+    text-align:center;
+}
+
+.Table {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.name-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Table table{
+    width:60%;
+    height:auto;
+    border-collapse: collapse;
+}
+
+.information{
+    display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.Hobbies-container h2{
+    text-align: center;   
+}
+
+.Hobbies-container ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.Project-container ul{
+    display:inline-block;
+    text-align: left;
+}
+
+body{
+    background-color: rgb(220, 230, 240);
+}
+
+h1,h2,th,h3{
+    color:rgb(57, 86, 116);
+}
+
+
